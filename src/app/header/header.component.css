@@ -1,0 +1,175 @@
+/* Top section styles */
+.container-fluid {
+    padding: 0 40px;
+  }
+  
+  .bg-black {
+    background-color: #000;
+  }
+  
+  .text-light {
+    color: #fff;
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+ 
+  /* Responsive adjustments */
+  .icon {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    margin: 0 5px; /* Adjust margins for spacing */
+  }
+  
+  .icon .count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px 5px;
+    display: inline-block;
+  }
+  
+  /* Navbar styles */
+  /* .navbar {
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+  } */
+  
+ 
+
+  .social-icons a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #d9534f; /* Change to red on hover */
+}
+
+.collapse .nav-link {
+    font-size: 0.9rem; /* Slightly smaller font for sub-links */
+    color: #ccc;
+}
+
+/* Default off-canvas width */
+.offcanvas-start {
+    width: 300px;
+}
+
+
+/* drop down menus li */
+/* To make the dropdown appear on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Add hover effect for dropdown items */
+  .dropdown-item:hover {
+    background-color: red; /* Light blue for English Willow */
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Customize hover effect for English Willow */
+  .dropdown-item:nth-child(1):hover {
+    background-color:yellow; /* Light blue for English Willow */
+  }
+  
+  /* Customize hover effect for Kashmir Willow */
+  .dropdown-item:nth-child(2):hover {
+    background-color: green; /* Light beige for Kashmir Willow */
+  }
+
+
+
+
+
+
+
+/* For iPhone SE, make sidebar narrower */
+@media (max-width: 375px) { /* iPhone SE, Pixel 5 */
+    .offcanvas-start {
+        width: 180px;
+    }
+}
+
+/* For mid-range devices like iPhone XR and 13 Pro, and Pixel 7 */
+@media (min-width: 376px) and (max-width: 768px) {
+    .offcanvas-start {
+        width: 200px;
+    }
+}
+
+/* For larger screens (768px and above), keep default width */
+@media (min-width: 769px) {
+    .offcanvas-start {
+        width: 240px;
+    }
+}
+
+/* Reduce font size and icon size on small screens */
+@media  (max-width: 768px) {
+    .container-fluid .icon {
+        font-size: 0.9rem; /* Decrease icon size */
+    }
+    .container-fluid span {
+        font-size: 0.8rem; /* Decrease text size */
+    }
+    .container-fluid .count {
+        font-size: 0.75rem; /* Decrease counter size */
+    }
+    .container-fluid{
+        padding: 20px ;
+    }
+}
+
+@media  (max-width: 375px) {
+    .container-fluid .icon {
+        font-size: 0.6rem; /* Decrease icon size */
+    }
+    .container-fluid span {
+        font-size: 0.5rem; /* Decrease text size */
+    }
+    .container-fluid .count {
+        font-size: 0.55rem; /* Decrease counter size */
+    }
+    .container-fluid{
+        padding: 10px ;
+    }
+}
+
+
+
+  
+
+
+
+  
+ 
+  
+  
+  
+  
+  
+  
