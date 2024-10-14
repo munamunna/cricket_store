@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeServiceComponent } from './home-service/home-service.component';
 import { HomeVideoComponent } from './home-video/home-video.component';
 import { HomeMiddleComponent } from './home-middle/home-middle.component';
+import { Middle2Component } from './middle2/middle2.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeMiddleComponent } from './home-middle/home-middle.component';
     HeaderComponent,
     HomeServiceComponent,
     HomeVideoComponent,
-    HomeMiddleComponent
+    HomeMiddleComponent,
+    Middle2Component
   ],
   imports: [
     BrowserModule,
