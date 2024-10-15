@@ -1,0 +1,90 @@
+/* Newsletter Section */
+.newsletter-section {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .newsletter-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-btn {
+    padding: 10px 20px;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter-desc {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    background-color: #000;
+    padding: 50px 0;
+    color: #fff;
+  }
+  
+  .footer-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ff4b2b;
+    text-decoration: none;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .payment-options img {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-section i {
+    margin-right: 10px;
+  }
+  
